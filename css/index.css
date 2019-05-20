@@ -28,6 +28,37 @@
   }
 }
 @media (max-width: 500px) {
+  footer .footer-container {
+    background-color: #3f7a1a;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+  }
+  footer h2,
+  footer a {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 24px;
+    padding: 10px;
+  }
+  footer h2 {
+    margin-bottom: 0px;
+  }
+  footer a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  footer a:hover {
+    text-decoration: line-through;
+  }
+  footer a:visited {
+    color: white;
+  }
+}
+@media (max-width: 500px) {
   body .bar {
     background-color: #3f7a1a;
     margin-top: -16px;
@@ -35,27 +66,46 @@
     margin-right: -8px;
     color: white;
   }
-  body .phone {
+  body .bar .phone {
     display: none;
   }
-  body h1,
-  body h2,
-  body p {
+  body .bar h1,
+  body .bar h2,
+  body .bar p {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
     font-family: 'Amatic SC', cursive;
   }
-  body h1 {
+  body .bar h1 {
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 110px;
   }
-  body h2 {
+  body .bar h2 {
     font-size: 30px;
     font-weight: 100;
   }
-  body p {
+  body .bar p {
     font-size: 22px;
-    padding-bottom: 50px;
+    padding-bottom: 110px;
+  }
+}
+body {
+  margin-bottom: 0px;
+}
+@media (max-width: 500px) {
+  body .features {
+    font-family: 'Amatic SC', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  body .features h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  body .features p {
+    font-size: 24px;
+    margin-bottom: 60px;
+    text-align: center;
   }
 }
