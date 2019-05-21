@@ -1,14 +1,54 @@
 body {
     .bar {
         background-color: rgb(63, 122, 26);
-        margin-top: -16px;
         margin-left: -8px;
         margin-right: -8px;
         .fontAmatic;
         color: white;
-        .phone {
-            width: 30%;
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 15%;
+            margin-right: 15%;
+        .container-left {
+            padding-right: 60px;
+            h1 {
+                font-size: 60px;
+                padding-top: 10px;
+            }
+            h2 {
+                font-size: 36px;
+            }
+            p {
+                font-size: 30px;
+                padding-bottom: 36px;
+            }
         }
+        .container-right {
+            padding-top: 20px;
+            .phone {
+                width: 90%;
+            }
+        }
+    }
+    .about-container {
+        display: flex;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        .about-text {
+            text-align: center;
+            h1 {
+                font-size: 60px;
+                padding-top: 10px;
+            }
+            p {
+                font-size: 30px;
+                padding-bottom: 36px;
+            }
+        }
+    }
     }
     @media @mobile {
     .bar {

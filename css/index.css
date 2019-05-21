@@ -54,6 +54,36 @@ header nav a:hover {
     width: 8%;
   }
 }
+footer .footer-container {
+  background-color: #3f7a1a;
+  margin-left: -8px;
+  margin-right: -8px;
+  color: white;
+}
+footer h2,
+footer a {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-weight: 100;
+  font-size: 36px;
+  padding: 10px;
+}
+footer h2 {
+  margin-bottom: 0px;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 46px;
+  color: white;
+}
+footer a:hover {
+  text-decoration: line-through;
+}
+footer a:visited {
+  color: white;
+}
 @media (max-width: 500px) {
   footer .footer-container {
     background-color: #3f7a1a;
@@ -88,14 +118,54 @@ header nav a:hover {
 }
 body .bar {
   background-color: #3f7a1a;
-  margin-top: -16px;
   margin-left: -8px;
   margin-right: -8px;
   font-family: 'Amatic SC', cursive;
   color: white;
 }
-body .bar .phone {
-  width: 30%;
+body .bar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .bar .container .container-left {
+  padding-right: 60px;
+}
+body .bar .container .container-left h1 {
+  font-size: 60px;
+  padding-top: 10px;
+}
+body .bar .container .container-left h2 {
+  font-size: 36px;
+}
+body .bar .container .container-left p {
+  font-size: 30px;
+  padding-bottom: 36px;
+}
+body .bar .container .container-right {
+  padding-top: 20px;
+}
+body .bar .container .container-right .phone {
+  width: 90%;
+}
+body .bar .about-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .bar .about-container .about-text {
+  text-align: center;
+}
+body .bar .about-container .about-text h1 {
+  font-size: 60px;
+  padding-top: 10px;
+}
+body .bar .about-container .about-text p {
+  font-size: 30px;
+  padding-bottom: 36px;
 }
 @media (max-width: 500px) {
   body .bar {
