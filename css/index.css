@@ -135,20 +135,20 @@ body .bar .container .container-left {
 }
 body .bar .container .container-left h1 {
   font-size: 60px;
-  padding-top: 10px;
+  padding-top: 80px;
 }
 body .bar .container .container-left h2 {
   font-size: 36px;
 }
 body .bar .container .container-left p {
   font-size: 30px;
-  padding-bottom: 36px;
+  padding-bottom: 80px;
 }
 body .bar .container .container-right {
   padding-top: 20px;
 }
 body .bar .container .container-right .phone {
-  width: 90%;
+  width: 120%;
 }
 body .bar .about-container {
   display: flex;
@@ -202,6 +202,17 @@ body .bar .about-container .about-text p {
 body {
   margin-bottom: 0px;
 }
+body .features {
+  font-family: 'Amatic SC', cursive;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .features h2 {
+  font-size: 60px;
+}
+body .features p {
+  font-size: 48px;
+}
 body .about-container {
   margin-left: 15%;
   margin-right: 15%;
@@ -232,14 +243,14 @@ body .about-container .about-content p {
 body .about-container .about-content a {
   display: flex;
   justify-content: center;
-  font-size: 42px;
+  font-size: 60px;
   text-decoration: none;
 }
 body .about-container .about-content a:hover {
   text-decoration: #3F7A1A line-through;
 }
 body .about-container .about-content p {
-  font-size: 20px;
+  font-size: 36px;
 }
 @media (max-width: 500px) {
   body .features {
