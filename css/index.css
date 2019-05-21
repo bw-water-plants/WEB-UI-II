@@ -4,6 +4,32 @@
 .fontRoboto {
   font-family: 'Roboto', sans-serif;
 }
+header nav {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header nav .menu {
+  display: none;
+}
+header nav .logo {
+  width: 40%;
+}
+header nav .logo-link {
+  width: 80%;
+}
+header nav .header-links a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  padding-left: 36px;
+}
+header nav a:hover {
+  text-decoration: #3F7A1A line-through;
+}
 @media (max-width: 500px) {
   header nav {
     margin-left: 5%;
@@ -24,6 +50,7 @@
     display: none;
   }
   header nav .menu {
+    display: flex;
     width: 8%;
   }
 }
@@ -58,6 +85,17 @@
   footer a:visited {
     color: white;
   }
+}
+body .bar {
+  background-color: #3f7a1a;
+  margin-top: -16px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+body .bar .phone {
+  width: 30%;
 }
 @media (max-width: 500px) {
   body .bar {
@@ -131,7 +169,7 @@ body {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #3F7A1A;
+    color: black;
   }
   body .about-container .about-content a {
     display: flex;
@@ -140,7 +178,7 @@ body {
     text-decoration: none;
   }
   body .about-container .about-content a:hover {
-    text-decoration: line-through;
+    text-decoration: #3F7A1A line-through;
   }
   body .about-container .about-content p {
     font-size: 20px;
