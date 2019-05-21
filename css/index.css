@@ -44,7 +44,7 @@ header nav a:hover {
   }
   header nav .logo {
     margin-top: 3px;
-    width: 60%;
+    width: 70%;
   }
   header nav .nav-item {
     display: none;
@@ -170,33 +170,23 @@ body .bar .about-container .about-text p {
 @media (max-width: 500px) {
   body .bar {
     background-color: #3f7a1a;
-    margin-top: -16px;
     margin-left: -8px;
     margin-right: -8px;
     color: white;
+    text-align: center;
   }
   body .bar .phone {
     display: none;
   }
-  body .bar h1,
-  body .bar h2,
-  body .bar p {
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
+  body .bar .container .container-left {
+    padding-right: 0px;
   }
-  body .bar h1 {
+  body .bar .container .container-left h1 {
+    padding-top: 10px;
     font-size: 50px;
-    padding-top: 110px;
   }
-  body .bar h2 {
-    font-size: 30px;
-    font-weight: 100;
-  }
-  body .bar p {
-    font-size: 22px;
-    padding-bottom: 110px;
+  body .bar .container .container-left p {
+    padding-bottom: 10px;
   }
 }
 body {
@@ -220,7 +210,6 @@ body .about-container {
 }
 body .about-container .about-img {
   width: 500px;
-  height: 500px;
   border-radius: 30px;
 }
 body .about-container .about-top,
@@ -259,21 +248,26 @@ body .about-container .about-content p {
     margin-right: 5%;
   }
   body .features h2 {
-    font-size: 32px;
+    font-size: 48px;
     text-align: center;
   }
   body .features p {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 60px;
     text-align: center;
   }
   body .about-container {
-    display: flex;
-    flex-direction: column;
     font-family: 'Amatic SC', cursive;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  body .about-container .about-top,
+  body .about-container .about-mid,
+  body .about-container .about-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   body .about-container .about-content {
     padding-top: 30px;

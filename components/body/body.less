@@ -17,7 +17,6 @@ body {
         .fontAmatic;
         .about-img {
             width: 500px;
-            height: 500px;
             border-radius: 30px;
         }
         .about-top, .about-mid, .about-bottom{
@@ -53,22 +52,25 @@ body {
             margin-left: 5%;
             margin-right: 5%; 
             h2 {
-                font-size: 32px;
+                font-size: 48px;
                 text-align: center;
             }
             p {
-                font-size: 24px;
+                font-size: 32px;
                 margin-bottom: 60px;
                 text-align: center;
             }
         }
         .about-container {
-            display: flex;
-            flex-direction: column;
             .fontAmatic;
             align-items: center;
             padding-top: 30px;
             padding-bottom: 30px;
+            .about-top, .about-mid, .about-bottom{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             .about-content {
                 padding-top: 30px;
                 padding-bottom: 30px;
