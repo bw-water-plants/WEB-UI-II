@@ -1,19 +1,103 @@
 body {
     margin-bottom: 0px;
+    .features {
+        .fontAmatic;
+        margin-left: 15%;
+        margin-right: 15%;
+        h2 {
+            font-size: 60px;
+        }
+        p {
+            font-size: 48px;
+        }
+    }
+    .about-container {
+        margin-left: 15%;
+        margin-right: 15%;
+        .fontAmatic;
+        .about-img {
+            width: 500px;
+            border-radius: 30px;
+        }
+        .about-top, .about-mid, .about-bottom{
+            display: flex;
+            justify-content: space-between;
+        }
+        .about-content {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            a, p {
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                color: black;
+                }
+            a {
+                display: flex;
+                justify-content: center;
+                font-size: 60px;
+                text-decoration: none;
+                }
+            a:hover {
+                text-decoration: #3F7A1A line-through;
+                }
+            p {
+                font-size: 36px;
+                }
+            }
+    }
     @media @mobile {
         .features {
             .fontAmatic;
             margin-left: 5%;
             margin-right: 5%; 
             h2 {
-                font-size: 32px;
+                font-size: 48px;
                 text-align: center;
             }
             p {
-                font-size: 24px;
+                font-size: 32px;
                 margin-bottom: 60px;
                 text-align: center;
             }
         }
-    }
+        .about-container {
+            .fontAmatic;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .about-top, .about-mid, .about-bottom{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .about-content {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                .about-img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 30px;
+                }
+                a, p {
+                    text-align: center;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    color: black;
+                }
+                a {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 42px;
+                    text-decoration: none;
+                }
+                a:hover {
+                    text-decoration: #3F7A1A line-through;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }  
+}
 }
