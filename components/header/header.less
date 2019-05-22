@@ -8,6 +8,9 @@ header {
     .menu {
         display: none;
     }
+    .icon {
+        display: none;
+      }
     .logo {
         width: 300px;
     }
@@ -36,26 +39,37 @@ header {
             margin-right: 5%; 
             display: flex;
             justify-content: space-between;
-            align-items: center;
-        a {
-            color: black;
-            text-decoration: none;
-         }   
+            align-items: center; 
         .logo {
             margin-top: 3px;
             width: 80%;
         }
-        .nav-item {
-            display: none;
-        }
         .header-links {
+            width: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            position: absolute;
+            right: 20px;
+            top: 82px;
+            background: white;
+            padding: 20px;
+            border: 2px black solid;
+            a {
+                padding: 0;
+            }
+        }
+        .icon {
+            display: block;
+            cursor: pointer;
+            color: black;
+        }
+        .icon:hover {
+            color: @green;
+        }
+        .dropdown {
             display: none;
         }
-        .menu {
-            display: flex;
-            align-items: center;
-            width: 10%;
-        }
-    }
+}
 }   
 }

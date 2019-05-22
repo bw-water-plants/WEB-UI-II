@@ -17,6 +17,9 @@ header nav {
 header nav .menu {
   display: none;
 }
+header nav .icon {
+  display: none;
+}
 header nav .logo {
   width: 300px;
 }
@@ -46,24 +49,35 @@ header nav a:hover {
     justify-content: space-between;
     align-items: center;
   }
-  header nav a {
-    color: black;
-    text-decoration: none;
-  }
   header nav .logo {
     margin-top: 3px;
     width: 80%;
   }
-  header nav .nav-item {
-    display: none;
-  }
   header nav .header-links {
-    display: none;
-  }
-  header nav .menu {
-    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 10%;
+    position: absolute;
+    right: 20px;
+    top: 82px;
+    background: white;
+    padding: 20px;
+    border: 2px black solid;
+  }
+  header nav .header-links a {
+    padding: 0;
+  }
+  header nav .icon {
+    display: block;
+    cursor: pointer;
+    color: black;
+  }
+  header nav .icon:hover {
+    color: #3f7a1a;
+  }
+  header nav .dropdown {
+    display: none;
   }
 }
 footer .footer-container {
