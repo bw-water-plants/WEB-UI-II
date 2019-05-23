@@ -315,6 +315,9 @@ body .about-container .about-content a:hover {
 body .about-container .about-content p {
   font-size: 36px;
 }
+body .about-container .about-content .ui-site {
+  font-size: 36px;
+}
 @media (max-width: 500px) {
   body .dd-item {
     display: flex;
