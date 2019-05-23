@@ -4,9 +4,9 @@ icon.addEventListener('click', event => {
     dropDown()
 })
 
-const links = document.querySelector('.dropdown')
+const links = document.querySelector('.dropdown-menu')
 
 
 function dropDown() {
-    links.classList.toggle('dropdown')
+    links.classList.toggle('dropdown-menu')
 }

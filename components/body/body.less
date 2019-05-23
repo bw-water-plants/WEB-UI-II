@@ -1,5 +1,8 @@
 body {
     margin-bottom: 0px;
+    .dropdown-menu {
+        display: none;
+    }
     .features {
         .fontAmatic;
         margin-left: 15%;
@@ -16,7 +19,8 @@ body {
         margin-right: 15%;
         .fontAmatic;
         .about-img {
-            width: 500px;
+            width: 100%;
+            height: auto;
             border-radius: 30px;
             box-shadow: 4px 4px 6px grey;
         }
@@ -48,6 +52,24 @@ body {
             }
     }
     @media @mobile {
+        .dd-item {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-content: center;
+            text-align: center;
+            .fontAmatic;
+            color: black;
+            font-size: 38px;
+            text-decoration: none;
+            .scale-up-ver-top
+        }
+        section a:hover {
+            text-decoration: #3F7A1A line-through;
+        }
+        .dropdown-menu {
+            display: none;
+        }
         .features {
             .fontAmatic;
             margin-left: 5%;
