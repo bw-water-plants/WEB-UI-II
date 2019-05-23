@@ -393,8 +393,8 @@ body .about-container .about-content .ui-site {
   body .about-container .about-content p {
     font-size: 20px;
   }
-  body .about-container .about-content p .ui-site {
-    font-size: 36px;
+  body .about-container .about-content .ui-site {
+    font-size: 20px;
   }
 }
 @media (max-width: 800px) {
