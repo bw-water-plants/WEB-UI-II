@@ -1,6 +1,9 @@
 html {
   font-size: 62.5%;
 }
+.about-img {
+  width: 62.5%;
+}
 .fontAmatic {
   font-family: 'Amatic SC', cursive;
 }
@@ -235,6 +238,7 @@ body .bar .about-container .about-text p {
   }
   body .bar .container .container-left {
     padding-right: 0px;
+    padding-left: 0px;
   }
   body .bar .container .container-left h1 {
     padding-top: 10px;
@@ -242,6 +246,17 @@ body .bar .about-container .about-text p {
   }
   body .bar .container .container-left p {
     padding-bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  body .bar {
+    text-align: center;
+  }
+  body .bar .container-left {
+    padding-left: 80px;
+  }
+  body .bar .container-right {
+    display: none;
   }
 }
 body {
@@ -267,8 +282,7 @@ body .about-container {
   font-family: 'Amatic SC', cursive;
 }
 body .about-container .about-img {
-  width: 100%;
-  height: auto;
+  width: 50rem;
   border-radius: 30px;
   box-shadow: 4px 4px 6px grey;
 }
@@ -375,5 +389,17 @@ body .about-container .about-content p {
   }
   body .about-container .about-content p {
     font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  body .about-top,
+  body .about-mid,
+  body .about-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .features h2 {
+    text-align: center;
   }
 }

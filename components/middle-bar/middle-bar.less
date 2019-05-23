@@ -66,6 +66,7 @@ body {
         .container {
         .container-left {
             padding-right: 0px;
+            padding-left: 0px;
             h1 {
                 padding-top: 10px;
                 font-size: 50px;
@@ -77,4 +78,16 @@ body {
     }
 }    
 }
+    @media @tablet {
+     
+        .bar {
+            text-align: center;
+            .container-left {
+                padding-left: 80px;
+            }   
+            .container-right {
+            display: none;
+        }
+        }
+    }
 }
