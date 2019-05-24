@@ -265,6 +265,9 @@ body {
 body .dropdown-menu {
   display: none;
 }
+body .dd-item {
+  display: none;
+}
 body .features {
   font-family: 'Amatic SC', cursive;
   margin-left: 15%;
